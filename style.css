@@ -6,13 +6,19 @@
 }
 
 body {
-    background: url();
+    background-color:rgb(43, 42, 42);
+    animation: animateBg 5s linear infinite;
+}
+@keyframes animateBg {
+    100%{
+        filter: hue-rotate(360deg);
+    }
 }
 
 .card {
     width: 90%;
     max-width: 470px;
-    background:linear-gradient(135deg, #00feba, #5b548a);
+    background:linear-gradient(135deg, #00feba, #cfc77c);
     color: #ffff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -85,4 +91,9 @@ body {
 .col img{
     width: 50px;
    margin-right: 10px ;
+}
+.humidity,
+.wind{
+    font-style: 28px;
+    margin-top: -6px;
 }
