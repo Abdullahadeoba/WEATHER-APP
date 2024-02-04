@@ -37,3 +37,15 @@ body {
     margin-right: 16px;
     font-style: 18px;
 } 
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search button i{
+    width: 16px;
+}
