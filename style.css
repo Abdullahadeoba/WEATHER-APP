@@ -1,11 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #f8f9fa;
   }
-  .weather-card {
-    margin: 20px auto;
-    max-width: 400px;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
+card {
+    width: 90%;
+    max-width: 470px;
+    background:linear-gradient(135deg, #00feba, #5b548a);
+    color: #ffff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
