@@ -6,6 +6,11 @@ document.getElementById('getWeatherBtn').addEventListener('click', function() {
     fetch(apiUrl)
       .then(response => response.json())
       .then(data => {
+        documemt.getElementById('city').innerHTML = data.name;
+        documemt.getElementById('temp').innerHTML = data.mai.temp;
+
+
+
         var weatherInfo = document.getElementById('weatherInfo');
         weatherInfo.innerHTML = `
           <h3>${data.name}</h3>
