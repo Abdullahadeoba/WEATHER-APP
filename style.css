@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color:rgb(43, 42, 42);
+    background-image:url(/background.jpg);
+    background-size: contain;
     animation: animateBg 5s linear infinite;
 }
 @keyframes animateBg {
@@ -20,7 +21,7 @@ body {
     max-width: 470px;
     background:linear-gradient(135deg, #00feba, #cfc77c);
     color: #ffff;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
